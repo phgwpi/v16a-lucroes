@@ -1,0 +1,54 @@
+			<!DOCTYPE html> <!--Lucro es | phgwpi APPS-->
+			<html lang="es">
+			  
+			  <head>			    
+			 <meta charset="UTF-8" />
+			 <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+			 <title>Lucroes: Umbral de rentabilidad</title>			 
+			 <link rel="shortcut icon" href="Dossier/lucroes.ico" type="image/x-icon">
+			 <link rel="stylesheet" href="Dossier/lucroes.css" />			 
+			 <script src="Dossier/lucroes.js"></script>				 		 			 
+			  </head>
+			
+			  <body> 
+			   <header>   		       
+			  <h2>Umbral de rentabilidad</h2>
+			     </header>
+
+			<section>  
+
+         <ul>
+         <li>A: Costes fijos anuales (CF).</li>
+         <li>B: Precio unitario de venta (P).</li>
+         <li>C: Coste variable unitario (CV).</li>         
+         </ul> 
+         			
+			<form name="umbr">
+			
+			  <div id="campoumbral">
+			<div>
+			<input id="camponumber" type="Text" placeholder="A" name="operando1" title="Costes fijos anuales.">
+			</div>
+			<div>
+			<input id="camponumber" type="Text" placeholder="B" name="operando2" title="Precio unitario de venta.">
+			</div>
+			<div>
+			<input  id="camponumber" type="Text"placeholder="C" name="operando3" title="Coste variable unitario">
+			</div>     
+			      </div>
+		
+			<div id="bouumbral">
+			<a href="lucroes.html"><input type="Button" id="bo" value="<<"></a>             
+			<input id="bo" type="Button" name="" value="Calcular"onclick="umbral()">
+			<input id="bo" type="Button" name="" value="Borrar" onClick="borrando(this.form)">
+        </div>
+					
+			<textarea id="campoword" name="resultado"></textarea>
+			
+			
+			</form>   
+			</section>
+
+			 			 
+			  </body>
+			</html>

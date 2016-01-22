@@ -1,0 +1,52 @@
+			<!DOCTYPE html> <!--Lucro es | phgwpi APPS-->
+			<html lang="es">
+			  
+			  <head>			    
+			 <meta charset="UTF-8" />
+			 <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+			 <title>Lucroes: Intereses bancarios</title>			 
+			 <link rel="shortcut icon" href="Dossier/lucroes.ico" type="image/x-icon">
+			 <link rel="stylesheet" href="Dossier/lucroes.css" />			 
+			 <script src="Dossier/lucroes.js"></script>				 		 			 
+			  </head>
+			
+			  <body> 
+			    <header>
+			    <h2>Dep&oacute;sitos Bancarios</h2>
+			    </header>  		       
+
+			      	    					
+			<section>	    
+			
+          <ul>
+         <li>A: Capital.</li>
+         <li>B: Años.</li>
+         <li>C: TAE%.</li>         
+         </ul> 			
+			   
+			 <form name="ib">
+			 
+			 <div id="campobanca">
+			<div>
+			<input id="camponumber" placeholder="A" type="Text" name="operando1" title="Capital">
+			</div>
+			<div>
+			<input id="camponumber" placeholder="B" type="Text" name="operando2" title="Años">
+			</div>
+			<div>
+			<input id="camponumber" placeholder="C" type="Text" name="operando3" title="TAE%">
+			</div>			
+			     </div>
+			     
+			<div id="boubanca"><a href="lucroes.html"><input type="Button" id="bo" value="<<"></a>			
+			<input id="bo" type="Button" name="" value="Intereses" onclick="bancarios('operando1*operando2*operando3/100')">
+			<input id="bo" type="Button" name="" value=" Borrar " onClick="borrando(this.form)">
+ 			</div>	
+ 			
+ 			<textarea id="campoword" name="resultado"></textarea>
+			</form>			
+			</section>
+
+			 		 
+			  </body>
+			</html>
